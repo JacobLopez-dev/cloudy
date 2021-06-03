@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloudy | Cloud hosting service</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/utilities.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer src="scripts/script.js"></script>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="container flex">
+            <h1 class="logo">Cloudy.</h1>
+            <nav class="nav-header">
+                <ul>
+                    <li><a class="nav-link" href="index.html">Home</a></li>
+                    <li>
+                        <p class="p-1">Already have an account?</p>
+                    </li>
+                    <li>
+                        <a class="sign-up" href="signup.html">Log&nbsp;in</a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="menu-btn">
+                <i class="fas fa-bars fa-3x"></i>
+            </button>
+        </div>
+    </div>
+    <div class="side-menu">
+        <ul class="flex">
+            <li><a class="menu-link" href="index.html">Home</a></li>
+            <li><a class="menu-link" href="features.html">Features</a></li>
+            <li><a class="menu-link" href="docs.html">Docs</a></li>
+        </ul>
+        <div class="btn-group">
+            <button class="menu-reg p-1"><a href="signup.html">Sign&nbsp;up</a></button>
+            <button class="menu-reg p-1">Log &nbsp;in</button>
+        </div>
+    </div>
+
+    <!-- Sign up form -->
+    <section class="signup-head bg-secondary">
+        <div class="text-center">
+            <img src="images/cloudy.svg" alt="">
+            <p class="md">Cloudy.</p>
+        </div>
+
+        <div class="container">
+            <div class="card grid bg-primary">
+                <div class="p-1">
+                    <div class="m-1">
+                        <h3><i class="far fa-user p-1"></i>Free account</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, ratione.</p>
+                    </div>
+
+                    <div class="p-1">
+                        <h3><i class="fas fa-globe p-1"></i>Deploy now</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, ratione.</p>
+                    </div>
+
+                    <div class="p-1">
+                        <h3><i class="fas fa-signal p-1"></i>Always online</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, ratione.</p>
+                    </div>
+                </div>
+
+
+                <form class="card glass">
+                    <div class="form-control">
+                        <label class="lead" for="firstname">First name<span>*</span></label><br>
+                        <input type="text" name="firstname" placeholder="First name" required>
+                    </div>
+
+                    <div class="form-control">
+                        <label class="lead" for="lastname">Last name<span>*</span></label><br>
+                        <input type="text" name="lastname" placeholder="Last name" required>
+                    </div>
+
+                    <div class="form-control">
+                        <label class="lead" for="email">Email<span>*</span></label><br>
+                        <input type="text" name="email" placeholder="Email" required>
+                    </div>
+
+                    <div class="form-control">
+                        <label class="lead" for="language">Language<span>*</span></label><br>
+                        <select name="language" required>
+                            <option value="default">Select</option>
+                            <option value="nodejs">Node JS</option>
+                            <option value="python">Python</option>
+                            <option value="csharp">C#</option>
+                            <option value="ruby">Ruby</option>
+                            <option value="php">PHP</option>
+                            <option value="scala">Scala</option>
+                            <option value="clojure">Clojure</option>
+                        </select>
+                    </div>
+                    <input type="submit" value="Create free account" class="btn btn-primary">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container grid grid-3 py-3">
+            <div>
+                <h1>Cloudy.</h1>
+                <p>Jacob Lopez &copy;2021</p>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="features.html">Features</a></li>
+                    <li><a href="docs.html">Docs</a></li>
+                </ul>
+            </nav>
+
+            <div class="social">
+                <a href="#"><i class="fab fa-github fa-2x"></i></a>
+                <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html

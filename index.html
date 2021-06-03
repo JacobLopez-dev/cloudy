@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloudy | Cloud hosting service</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/utilities.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
+    <script defer src="scripts/script.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+</head>
+
+<body>
+    <!-- main nav -->
+    <div class="navbar">
+        <div class="container flex">
+            <h1 class="logo">Cloudy.</h1>
+            <nav class="nav-header">
+                <ul>
+                    <li><a class="nav-link" href="index.html">Home</a></li>
+                    <li><a class="nav-link" href="features.html">Features</a></li>
+                    <li><a class="nav-link" href="docs.html">Docs</a></li>
+                    <li><a class="log-in" href="#">Log&nbsp;in</a>or
+                        <a class="sign-up" href="signup.html">Sign&nbsp;up</a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="menu-btn">
+                <i class="fas fa-bars fa-3x"></i>
+            </button>
+        </div>
+    </div>
+    <!-- Mobile side menu -->
+    <div class="side-menu">
+        <ul class="flex">
+            <li><a class="menu-link" href="index.html">Home</a></li>
+            <li><a class="menu-link" href="features.html">Features</a></li>
+            <li><a class="menu-link" href="docs.html">Docs</a></li>
+        </ul>
+        <div class="btn-group">
+            <button class="menu-reg p-1"><a href="signup.html">Sign&nbsp;up</a></button>
+            <button class="menu-reg p-1">Log &nbsp;in</button>
+        </div>
+    </div>
+
+    <!--Showcase-->
+    <section class="showcase bg-secondary">
+        <div class="container grid">
+            <div>
+                <h1 class="my-2">The cloud platform of the future</h1>
+                <p class="my-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat nam quibusdam animi
+                    sunt. Sunt
+                    laboriosam rem nobis neque itaque. Incidunt.</p>
+                <button class="btn btn-dark"><a class="p-1" href="features.html">Read more</a></button>
+            </div>
+            <div class="text-center my-4">
+                <img src="images/server-storage.svg">
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats -->
+    <section class="stats">
+        <div class="container">
+            <h3 class="text-center my-4">The industry leading platform for building modern applications with best in
+                class scaling and support </h3>
+            <div class="grid grid-3 text-center my-4">
+                <div>
+                    <i class="fas fa-server fa-3x"></i>
+                    <h3>10,349,405</h3>
+                    <p class="text-secondary">Deployments</p>
+                </div>
+                <div>
+                    <i class="fas fa-upload fa-3x"></i>
+                    <h3>987 TB</h3>
+                    <p class="text-secondary">Published</p>
+                </div>
+                <div>
+                    <i class="fas fa-project-diagram fa-3x"></i>
+                    <h3>987 TB</h3>
+                    <p class="text-secondary">Projects</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+
+    <!-- CLI -->
+    <section class="cli my-4">
+        <h2 class="md text-center my-3"> Quick and simple setup</h2>
+        <div class="container grid">
+            <img src="images/cloudy-cli.png">
+            <div class="card">
+                <h3>Easy to use CLI</h3>
+            </div>
+            <div class="card">
+                <h3>Deploy in seconds</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Languages -->
+    <section class="languages bg-dark">
+        <h3 class="md text-center">Supported Languages</h3>
+        <div class="container flex">
+            <div class="card">
+                <h4>Node Js</h4>
+                <img src="images/logos/node.png">
+            </div>
+            <div class="card">
+                <h4>Python</h4>
+                <img src="images/logos/python.png">
+            </div>
+            <div class="card">
+                <h4>C#</h4>
+                <img src="images/logos/csharp.png">
+            </div>
+            <div class="card">
+                <h4>Ruby</h4>
+                <img src="images/logos/ruby.png">
+            </div>
+            <div class="card">
+                <h4>PHP</h4>
+                <img src="images/logos/php.png">
+            </div>
+            <div class="card">
+                <h4>Scala</h4>
+                <img src="images/logos/scala.png">
+            </div>
+            <div class="card">
+                <h4>Clojure</h4>
+                <img src="images/logos/clojure.png">
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials py-4">
+        <div class="slider-container">
+            <h2 class="text-center">Take a look at what some of our users say</h2><br>
+            <!-- begin slider -->
+            <div class="slider">
+                <div class="glass2">
+                    <img id="image" src="images/user.svg">
+                    <div class="lead text-center">
+                        <p> Our team was able to get the node environment up and database connected in no time thanks to
+                            the ease of use of Cloudy. </p>
+                    </div>
+                </div>
+                <div class="glass2">
+                    <img id="image" src="images/user.svg">
+                    <div class="lead text-center">
+                        <p>Couldn't have found an easier to use platform! I was able to put up many of my side projects
+                            with little to no hassle</p>
+                    </div>
+                </div>
+                <div class="glass2">
+                    <img id="image" src="images/user.svg">
+                    <div class="lead text-center">
+                        <p>Cloudy is quite simply the greatest platform to ever exist. With an easy to use CLI,
+                            consistent uptime and customer service, I couldn't image using another platform</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container grid grid-3 py-3">
+            <div>
+                <h1>Cloudy.</h1>
+                <p>Jacob Lopez &copy;2021</p>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="features.html">Features</a></li>
+                    <li><a href="docs.html">Docs</a></li>
+                </ul>
+            </nav>
+
+            <div class="social">
+                <a href="#"><i class="fab fa-github fa-2x"></i></a>
+                <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+            </div>
+        </div>
+    </footer>
+    <!-- Needed for slider, won't work otherwise -->
+    <script type="module">  var slider = tns({
+            container: '.slider',
+            items: 1,
+            slideBy: 'page',
+            controlsPosition: 'bottom',
+            nav: false
+        });</script>
+</body>
+
+</html>

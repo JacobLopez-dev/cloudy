@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloudy | Cloud hosting service</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/utilities.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer src="scripts/script.js"></script>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="container flex">
+            <h1 class="logo">Cloudy.</h1>
+            <nav class="nav-header">
+                <ul>
+                    <li><a class="nav-link" href="index.html">Home</a></li>
+                    <li><a class="nav-link" href="features.html">Features</a></li>
+                    <li><a class="nav-link" href="docs.html">Docs</a></li>
+                    <li><a class="log-in" href="#">Log&nbsp;in</a>or
+                        <a class="sign-up" href="signup.html">Sign&nbsp;up</a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="menu-btn">
+                <i class="fas fa-bars fa-3x"></i>
+            </button>
+        </div>
+    </div>
+    <div class="side-menu">
+        <ul class="flex">
+            <li><a class="menu-link" href="index.html">Home</a></li>
+            <li><a class="menu-link" href="features.html">Features</a></li>
+            <li><a class="menu-link" href="docs.html">Docs</a></li>
+        </ul>
+        <div class="btn-group">
+            <button class="menu-reg p-1"><a href="signup.html">Sign&nbsp;up</a></button>
+            <button class="menu-reg p-1">Log &nbsp;in</button>
+        </div>
+    </div>
+
+    <!-- Head -->
+    <section class="showcase bg-secondary">
+        <div class="container grid">
+            <div>
+                <h1 class="xl">Docs</h1>
+                <p class="lead">
+                    Learn how the Cloudy platform works
+                </p>
+            </div>
+            <div class="text-center my-4">
+                <img src="images/cloud-computing.svg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- main content -->
+    <section class="docs-main">
+        <div class="container grid grid-3">
+            <div class="card">
+                <h3 class="p-1">Getting started</h3>
+                <nav>
+                    <ul>
+                        <li class="active"><a href="#">Introduction</a></li>
+                        <li><a href="#">Prep</a></li>
+                        <li><a href="#">installation</a></li>
+                        <li><a href="#">Deploy</a></li>
+                        <li><a href="#">Next steps</a></li>
+                    </ul>
+                </nav>
+
+                <h3 class="p-1">Advanced</h3>
+                <nav>
+                    <ul>
+                        <li><a href="#">Scale</a></li>
+                        <li><a href="#">Debugging</a></li>
+                        <li><a href="#">Logs</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="card p-1">
+                <h3 class="md">Introduction</h3>
+                <p class="my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro culpa odio optio atque
+                    laudantium a,
+                    quas sit architecto molestias quos! Eos enim nesciunt veritatis blanditiis eveniet eaque hic
+                    doloremque odio.</p>
+
+                <h3 class="md">Requirements</h3>
+                <p class="my-2">Windows 10, Mac OSX, Linux</p>
+                <div class="grid">
+                    <div class="text-center border p-1">
+                        <h3>MacOS</h3>
+                        <button class="btn btn-dark">Download the installer</button>
+                        <p class="m-1">Available via homebrew</p>
+                        <p class="code"><span>$</span> brew install cloudy-cli</p>
+                    </div>
+                    <div class="text-center border p-1">
+                        <h3>Windows</h3>
+                        <p class="my-1">Download the appropriate installer for your system</p>
+                        <button class="btn btn-dark">64-bit</button>
+                        <button class="btn btn-dark">32-bit</button>
+                    </div>
+                </div>
+                <div class="alert">
+                    <p><i class="fas fa-exclamation-circle"></i>Cloudy requires the latest version of git. Before
+                        continuing, ensure that you have the proper version installed by running the command below</p>
+                </div>
+                <div class="code my-4">
+                    <span>$</span> git --version<br> v2.31.1
+                </div>
+                <button class="btn btn-dark">Next</button>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="container grid grid-3 py-3">
+            <div>
+                <h1>Cloudy.</h1>
+                <p>Jacob Lopez &copy;2021</p>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="features.html">Features</a></li>
+                    <li><a href="docs.html">Docs</a></li>
+                </ul>
+            </nav>
+
+            <div class="social">
+                <a href="#"><i class="fab fa-github fa-2x"></i></a>
+                <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+                <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html
