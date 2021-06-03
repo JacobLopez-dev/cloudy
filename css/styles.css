@@ -254,12 +254,12 @@ padding-bottom: 100px;
   color: red;
 }
 
-.feature-intro *:first-child{
+.feature-head *:first-child{
   grid-column: 1/ span 2;
 }
 
 
-.feature-intro img{
+.feature-head img{
   height: 150px;
   width: 150px;
 }
@@ -267,11 +267,6 @@ padding-bottom: 100px;
 .pricing .price-flex{
   flex-direction: column;
   align-items: flex-start;
-}
-
-.pricing .price-flex:hover{
-/* transform: translateY(-5px); */
-
 }
 
 .pricing li{
@@ -302,6 +297,7 @@ footer .social a {
   .features-main .grid,
   .docs-main .grid,
   .signup-head .grid,
+  .feature-head .grid,
   .pricing .grid
   {
     grid-template-columns: 1fr;
