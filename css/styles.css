@@ -271,11 +271,15 @@ img {
 .pricing .price-flex {
   flex-direction: column;
   align-items: flex-start;
-  height: 35vh;
+  height: fit-content;
 }
 
 .pricing li {
   padding: 1em;
+}
+
+.cost{
+  font-size: 2rem;
 }
 
 /* Footer */
